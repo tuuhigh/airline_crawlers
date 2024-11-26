@@ -1,0 +1,32 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+selenium==4.4.0
+selenium-wire
+undetected-chromedriver
+retry
+PyVirtualDisplay
+python-dotenv
+bs4
+lxml
+aiohttp
+scrapy
+undetected-playwright-patch
+playwright-stealth
+curl-cffi==0.7.0b4
+fastapi
+isodate
+uvicorn
+loguru
+asgiref==3.6.0
+pymongo
+blinker<1.8.0
+zenrows
+imap_tools==1.6.0
+# botasaurus-requests
+# botasaurus
+botasaurus-requests @ git+https://github.com/anothingguy/botasaurus-requests.git@master
+pyotp
+numpy==1.26.4
+python_ghost_cursor
